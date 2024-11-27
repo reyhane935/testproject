@@ -12,10 +12,10 @@ const Table = () => {
         <table className="min-w-full table-auto">
           <thead className="bg-gray-100">
             <tr>
-              <th className="px-4 py-2 border-b text-left">#</th>
-              <th className="px-4 py-2 border-b text-left">Name</th>
-              <th className="px-4 py-2 border-b text-left">Email</th>
-              <th className="px-4 py-2 border-b text-left">Age</th>
+              <th className="px-4 py-2 border-b  text-center">#</th>
+              <th className="px-4 py-2 border-b  text-center">Name</th>
+              <th className="px-4 py-2 border-b  text-center">Email</th>
+              <th className="px-4 py-2 border-b  text-center">Age</th>
             </tr>
           </thead>
           <tbody>
