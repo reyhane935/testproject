@@ -4,8 +4,11 @@ const Table = () => {
   const router = useRouter();
   const pageData = useSelector(({ pageData }: any) => pageData);
   return (
-    <>
-      <div className="overflow-x-auto shadow-md rounded-lg border border-gray-200">
+    <div className="mx-auto mt-4 max-w-2xl text-center ">
+      <h2 className="text-balance text-4xl  font-semibold tracking-tight text-gray-900 sm:text-5xl">
+        List users
+      </h2>
+      <div className="overflow-x-auto mt-10 shadow-md rounded-lg border border-gray-200">
         <table className="min-w-full table-auto">
           <thead className="bg-gray-100">
             <tr>
@@ -36,7 +39,7 @@ const Table = () => {
           Back
         </button>
       </div>
-    </>
+    </div>
   );
 };
 

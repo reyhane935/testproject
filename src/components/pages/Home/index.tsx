@@ -26,7 +26,7 @@ const Index = () => {
   const defaultValues = {
     name: "",
     email: "",
-    age: "",
+    age: 0,
     newsletter: false,
   };
 
