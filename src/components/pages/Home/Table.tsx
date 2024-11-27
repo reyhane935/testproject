@@ -16,6 +16,7 @@ const Table = () => {
               <th className="px-4 py-2 border-b  text-center">Name</th>
               <th className="px-4 py-2 border-b  text-center">Email</th>
               <th className="px-4 py-2 border-b  text-center">Age</th>
+              <th className="px-4 py-2 border-b  text-center">Newsletter</th>
             </tr>
           </thead>
           <tbody>
@@ -25,6 +26,14 @@ const Table = () => {
                 <td className="px-4 py-2 border-b">{item?.name}</td>
                 <td className="px-4 py-2 border-b">{item?.email}</td>
                 <td className="px-4 py-2 border-b">{item?.age}</td>
+                <td className="px-4 py-2 border-b">
+                  <input
+                    checked={item?.newsletter}
+                    readOnly
+                    type="checkbox"
+                    className="h-5 w-5 text-blue-500 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
+                  />
+                </td>
               </tr>
             ))}
           </tbody>
